@@ -19,7 +19,7 @@ const schema = new mongoose.Schema(
             type: Date,
             default: null,
         },
-        creatorUser: {
+        userCreator: {
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User',
             required: 'required field!'
